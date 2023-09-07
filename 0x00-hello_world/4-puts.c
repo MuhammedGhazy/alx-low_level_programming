@@ -1,10 +1,9 @@
 #include<stdio.h>
-
 /**
- * main - Entry Point
+ * main - main entry point
  *
  * Return: Alawys 0 (Success)
- * 
+ *
 */
 
 int main(void)
