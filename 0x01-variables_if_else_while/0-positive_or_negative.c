@@ -1,4 +1,4 @@
-#include <stdio.h>
+#include<stdio.h>
 /**
  * main - Entry Point
  *
@@ -6,18 +6,16 @@
  *
 */
 int main(void)
-	int n ;
-	scanf("%d", &n)
-	if(n > 0)
-	{
-	printf("%d is positive\n", n);
-	}
-	else if (n < 0)
-	{
-	printf("%d is negative\n", n);
-	}
+{
+	int n;
+
+	srand(time(0));
+	n = rand() - RAND_MAX / 2;
+	if (n > 0)
+	printf("%i is positive\n", n);
+	else if (n == 0)
+	printf("%i is Zero\n", n);
 	else
-	{
-	printf("%d is zero\n", n);
-	}
+	printf("%i is positive\n", n);
 	return (0);
+}
