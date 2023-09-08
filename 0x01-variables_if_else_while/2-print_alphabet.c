@@ -9,12 +9,12 @@
 */
 int main(void)
 {
-	int n =97;
+	char ch = 'a';
 
-	while (n <= 122)
+	while (n <= 'z')
 	{
-		putchar(n);
-		n++;
+		putchar(ch);
+		ch++
 	}
-	putch
+	putchar('\n');
 	return (0);
