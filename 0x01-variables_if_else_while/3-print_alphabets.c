@@ -7,7 +7,7 @@
  *
  * Return: Alawys 0 (Success)
 */
-int main (void)
+int main(void)
 {
 	char ch = 'a';
 	char CH = 'A';
