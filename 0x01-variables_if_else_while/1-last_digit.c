@@ -2,15 +2,16 @@
 #include<time.h>
 #include<stdio.h>
 /**
- * main - entry point
- * 
- * Descrption: Print of yhe value
- *
- * Return: 0 (Success)
+* main - entry point
+* 
+* Descrption: Print of yhe value
+*
+* Return: 0 (Success)
 */
 int main(void)
 {
-	int n, lastd;
+	int n;
+	int lastd;
 
 	srand(time(0));
 	n = rand() - RAND_MAX / 2;
