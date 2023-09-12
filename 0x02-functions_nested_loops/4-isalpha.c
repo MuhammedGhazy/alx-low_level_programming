@@ -1,10 +1,9 @@
 #include "main.h"
 
 /**
- * _isalpha - checks if character is a lettr
- *	both lowercase or uppercase
+ * _isalpha - checks for alphabetic charactr
  *
- *@c; take input from other functions.
+ *@c: the character to be checked
  *
  * Return: 1 is c if true else 0
 */
