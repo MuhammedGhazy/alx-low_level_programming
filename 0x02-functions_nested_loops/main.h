@@ -3,10 +3,11 @@
 
 #include <stdio.h>
 
-int -putchar(char c);
+int _putchar(char c);
 
 
 
 
 
 #endif
+
