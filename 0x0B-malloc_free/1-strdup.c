@@ -1,12 +1,12 @@
 #include "main.h"
- /**
-  * *_strdup - function return a pointer allocated in memory
-  *
-  * @*str: input string
-  *
-  * Return: Always 0 (Success)
-  *
- */
+/**
+ * _strdup - function returns a pointer to a newly allocated memory
+ *	containing a copy of the string given as parameter.
+ * @str: input string
+ *
+ * Return: On success, the function returns a pointer to the duplicated string.
+ *	It returns NULL if insufficient memory was available.
+*/
 char *_strdup(char *str)
 {
 	int i = 0, size = 0;
@@ -21,8 +21,9 @@ char *_strdup(char *str)
 	m = malloc(size * sizeof(*str) + 1);
 
 	if (m == 0)
+	{
 	return (NULL);
-
+	}
 	else
 	{
 	for (; i < size; i++)
