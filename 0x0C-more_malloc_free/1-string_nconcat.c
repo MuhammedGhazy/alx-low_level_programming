@@ -33,6 +33,9 @@ char *string_nconcat(char *s1, char *s2, unsigned int n)
 		return (NULL);
 	}
 	/*copy first string into str.*/
+	for (i = 0; s1[i] != '\0'; i++)
+		str[i] = s1[i];
+	/*copy second string into str.*/
 	for (co = 0; co < n; co++)
 	{
 		str[i] = s2[i];
