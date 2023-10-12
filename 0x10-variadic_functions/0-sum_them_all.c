@@ -1,27 +1,24 @@
 #include "variadic_functions.h"
 
 /**
- * print_numbers - prints numbers with separator
+ * sum_them_all - prints numbers with separator
  *
- * @separator: the string separator
  * @n: the number of agruments
+ * @...: the int to sum
  *
- * Return: void
+ * Return: the int sum
 */
 
 int sum_them_all(const unsigned int n, ...)
 {
-	int i = n;
+	int s = 0, i = n;
 	va_list ap;
 
 	if (!n)
-	{
-		printf("\n");
-		return;
-	}
-	va_start(ap, n);
+		return (0);
+	va_star(ap, n);
 	while (i--)
-		printf("%d%s", va_arg(ap, int),
-				i ? (separator ? separator : "") : "\n");
+		s += va_arg(ap, int);
 	va_end(ap);
+	return (s);
 }
