@@ -2,7 +2,7 @@
 #include <stdlib.h>
 
 /**
- * main-
+ * main - print multipcate of 2 input numbers
  *
  * @argc: Number of command line arguments
  *
