@@ -1,6 +1,6 @@
 #include <stdio.h>
 /**
- *main - func print the number of argument passed to programe, followed by a new line
+ *main - func print the number of argument passed to programe
  *
  * @argc: number of argument
  *
