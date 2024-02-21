@@ -1,4 +1,4 @@
-#include <stdlib.h>
+/*#include "main.h"
 
 char *creat_array(unsigned int size, char *c)
 {
@@ -15,4 +15,4 @@ char *creat_array(unsigned int size, char *c)
     }
     return ptr;
 }
-
+*/
