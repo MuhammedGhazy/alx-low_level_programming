@@ -6,9 +6,9 @@ int main()
 {
 	int Num1 = 0, Num2 = 0;
 	int Result = 0;
-    char op ;
+    	char op ;
 
-    printf("Please Enter The Opreation\n");
+    	printf("Please Enter The Opreation\n");
 	scanf("%c", &op); 
 	printf("Please Enter First Number\n");
 	scanf("%i", &Num1);
